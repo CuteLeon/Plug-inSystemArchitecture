@@ -4,6 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plug-inSystemArchitecture", "Plug-inSystemArchitecture\Plug-inSystemArchitecture.csproj", "{91396D08-B8CE-45E8-B580-31AAA3045E24}"
+	ProjectSection(ProjectDependencies) = postProject
+		{950FF351-6CAC-45DC-8589-1369F51B4017} = {950FF351-6CAC-45DC-8589-1369F51B4017}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plug-inTemplate", "Plug-inTemplate\Plug-inTemplate.csproj", "{950FF351-6CAC-45DC-8589-1369F51B4017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plug-inComponentDemo", "Plug-inComponentDemo\Plug-inComponentDemo.csproj", "{E637FB85-788B-4463-A8C0-F036811C025E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,14 @@ Global
 		{91396D08-B8CE-45E8-B580-31AAA3045E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91396D08-B8CE-45E8-B580-31AAA3045E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91396D08-B8CE-45E8-B580-31AAA3045E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950FF351-6CAC-45DC-8589-1369F51B4017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950FF351-6CAC-45DC-8589-1369F51B4017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950FF351-6CAC-45DC-8589-1369F51B4017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950FF351-6CAC-45DC-8589-1369F51B4017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E637FB85-788B-4463-A8C0-F036811C025E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E637FB85-788B-4463-A8C0-F036811C025E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E637FB85-788B-4463-A8C0-F036811C025E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E637FB85-788B-4463-A8C0-F036811C025E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
