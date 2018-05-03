@@ -11,6 +11,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plug-inTemplate", "Plug-inTemplate\Plug-inTemplate.csproj", "{950FF351-6CAC-45DC-8589-1369F51B4017}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plug-inComponentDemo", "Plug-inComponentDemo\Plug-inComponentDemo.csproj", "{E637FB85-788B-4463-A8C0-F036811C025E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{950FF351-6CAC-45DC-8589-1369F51B4017} = {950FF351-6CAC-45DC-8589-1369F51B4017}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
